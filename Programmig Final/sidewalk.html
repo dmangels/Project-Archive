@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+  <!--STORING THE NAME WILL NOT WORK - the variables reset with each html page - Will have to scrap this idea and have no name input-->
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <a href="index.html">First page</a>
+  <fieldset>
+    <img id="scene" src="guard.jpg"></img>
+    <p>You are approched by a medieval guard, "What is the password?"</p>
+  </fieldset>
+  <fieldset id="optionset">
+    <label>Password:</label>
+          <input id="password" value="" autocomplete="off" /> 
+    <!-- THE PASSWORD IS "BANANA" -->
+          <button onclick="tellPassword()">Tell Password</button>
+          <button onclick="begin()">Go Back</button>
+  </fieldset>
+  <script src="script.js"></script>
+</body>
+
+</html>

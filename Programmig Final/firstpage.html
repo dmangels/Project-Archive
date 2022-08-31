@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  <!--STORING THE NAME WILL NOT WORK - the variables reset with each html page - Will have to scrap this idea and have no name input-->
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <a href="index.html">First page</a>
+  <fieldset>
+    <img id="scene" src="darkalley.jpg"></img>
+    <p>You have 2 options - which way will you go?</p>
+  </fieldset>
+  <fieldset id="optionset">
+    <table>
+    <tr>
+      <td id="option1" onclick="darkalley()">Dark Alley</td>
+      <td id="option2" onclick="sidewalk()">Well-lit Sidewalk</td>
+    </tr>
+    </table>
+  </fieldset>
+  <script src="script.js"></script>
+</body>
+
+</html>
